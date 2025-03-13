@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const cors = require('cors');
 const bodyparser = require('body-parser');
+require('dotenv').config();
 
 const app = express();
 
@@ -19,4 +20,4 @@ app.get("/api/tasks", (req, res) => {
     ]);
 });
 
-app.listen(port, () => {console.log("Listening at 5000!")})
+app.listen(port, () => {console.log("Listening at 5000!", process.env.PORT)})
