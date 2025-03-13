@@ -1,0 +1,46 @@
+.Home{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(73, 73, 73);
+}
+
+.Heading {
+    padding: 0;
+    margin:0;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+.Cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.componentsHead{
+    padding: 10px 3%;
+    color: #ffffff;
+    background-color: #0f74d4;
+    border-radius: 20px;
+    width: auto;
+    font-size: 50px;
+}
+
+  
+@media screen and (max-width: 650px) {
+    .componentsHead{
+      font-size: 40px;
+    }
+    .heading{
+      font-size: 25px;
+    }
+  }

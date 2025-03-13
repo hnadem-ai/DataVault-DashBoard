@@ -1,0 +1,48 @@
+.Card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 250px;
+    padding: 30px 30px;
+    color: rgb(65, 65, 65);
+    background-color: #ffffff;
+    border: 1px solid #0F74D4;
+    border-radius: 10%;
+    height: auto;
+    width: 300px;
+    margin: 30px 30px;
+    animation: fadeInUp 1s ease-out;
+    transition-duration: 0.5s;
+}
+
+.card-heading{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    color: #0F74D4;
+}
+
+p{
+    text-align: center;
+}
+
+.img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.Card:hover{
+    transform: translateY(-4px);
+}
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translatex(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translatex(0);
+    }
+  }
