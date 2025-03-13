@@ -1,5 +1,7 @@
 import './stats.css'
 import revenue from './Components/images/revenue.png'
+import profit from './Components/images/profit.png'
+import piechart from './Components/images/piechart.png'
 import Header from './Components/Header.js'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -19,17 +21,16 @@ export default function Stats(){
                     <p className='stats-paragraph'>70%</p>
                 </div>
                 <div className='stats-card card2'>
-                    <h1 className='stats-card-heading'>Heading</h1>
-                    <p className='stats-paragraph'>lorem ipsum dolor amit. This is a dummy text</p>
+                    <div className='img-heading'>
+                        <img className='img' src={profit}/>
+                        <h1 className='stats-card-heading'>Annual Profits</h1>
+                    </div>
+                    <p className='stats-paragraph'>29,58,598 Rs./-</p>
                 </div>
-                <div className='stats-card card3'>
-                    <h1 className='stats-card-heading'>Heading</h1>
-                    <p className='stats-paragraph'>lorem ipsum dolor amit. This is a dummy text</p>
-                </div>
-                <div className='stats-card card4'>
-                    <h1 className='stats-card-heading'>Heading</h1>
-                    <p className='stats-paragraph'>lorem ipsum dolor amit. This is a dummy text</p>
-                </div>
+            </div>
+            <div className='container piechart-container'>
+                <h2>How many platforms do we use for marketing?</h2>
+                <img src={piechart}/>
             </div>
         </div>
     )
