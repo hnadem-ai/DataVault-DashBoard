@@ -55,8 +55,26 @@
     .App-logo{
       height: 60px;
     }
+
+    .menuImg{
+      height: 30px;
+    }
+
     .heading{
       font-size: 25px;
     }
   }
   
+  @media screen and (max-width: 500px) {
+    .App-logo{
+      height: 50px;
+    }
+
+    .App-header{
+      
+    }
+
+    .heading{
+      font-size: 20px;
+    }
+  }

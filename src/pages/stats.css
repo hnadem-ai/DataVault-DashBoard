@@ -1,10 +1,14 @@
+
+
 .stats-heading{
     font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     animation: fadeInUp 1s ease-out;
+    margin: 20px 60px 10px 60px;
+    color: var(--main-theme-color)
 }
 
 .cards-container{
-    margin-top: 20px;
     padding: 0px 50px 0 50px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -66,6 +70,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
+    margin: 0 10px;
 }
 
 .piechart-container h2 {
@@ -106,6 +111,13 @@
   }
 
   @media screen and (max-width: 650px) {
+    .piechart-container h2{
+        font-size: 25px;
+    }
+    .stats-heading{
+        font-size: 30px;
+        text-align: center;
+    }
     .cards-container{
       display: flex;
       flex-direction: column;
@@ -115,12 +127,16 @@
     .stats-card{
         width: fill;
         align-items: center;
+        justify-content: center;
     }
     .stats-card-heading{
-        font-size: 35px;
+        font-size: 30px;
     }
     .stats-paragraph{
-        font-size: 35px;
+        font-size: 25px;
         text-align: center;
+    }
+    .piechart-container img{
+        height: 250px;
     }
   }

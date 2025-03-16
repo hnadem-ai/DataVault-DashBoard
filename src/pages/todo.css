@@ -99,6 +99,12 @@
 }
   
 @media screen and (max-width: 650px) {
+    .todo-container{
+        margin: 0 20px 0 20px;
+    }
+    .todo-input-button{
+        justify-content: center;
+    }
     .todo-heading{
       text-align: center;
     }

@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: left;
     align-items: center;
-    padding-top: 20px;
+    padding: 20px 10px;
     font-size: 30px;
     color: rgb(73, 73, 73);
+
 }
 
 .Heading {
@@ -24,10 +25,11 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .componentsHead{
-    padding: 10px 3%;
+    padding: 10px 20px;
     color: #ffffff;
     background-color: #0f74d4;
     border-radius: 20px;
@@ -38,9 +40,12 @@
   
 @media screen and (max-width: 650px) {
     .componentsHead{
-      font-size: 40px;
+      font-size: 30px;
     }
-    .heading{
-      font-size: 25px;
+    .Heading{
+      font-size: 30px;
+    }
+    .home-paragraph{
+        font-size: 15px;
     }
   }

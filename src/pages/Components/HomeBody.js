@@ -8,8 +8,8 @@ import {Outlet, Link } from 'react-router-dom';
 function Home(){
     return(
     <div className = "Home">
-        <h1 className = "Heading">Hello World,</h1>
-        <p className = "paragraph">This is a dashboard designed for DataVault by Hani Nadeem</p>
+        <h1 className = "Heading">Hello World</h1>
+        <p className = "home-paragraph">This is a dashboard designed for DataVault by Hani Nadeem</p>
         <h1 className = 'componentsHead'>KEY COMPONENTS</h1>
         <div className = "Cards">
             <Card Heading = 'Home Page' paragraph = 'This site contains a home page which tells you everything you need to know about it.' src={HouseIcon}/>

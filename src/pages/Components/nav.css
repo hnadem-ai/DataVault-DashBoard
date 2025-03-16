@@ -58,3 +58,9 @@ a{
 .item:hover{
     background-color: rgb(225, 225, 225);
 }
+
+@media screen and (max-width: 650px){
+    .nav{
+        width: 300px;
+    }
+}

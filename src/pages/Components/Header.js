@@ -23,7 +23,7 @@ export default function Header(props){
           <nav className="App-header">
               <div className = "logo-heading">
                   <img src={logo} className="App-logo" alt="logo" />
-                  <h1 className = "heading">DataVault<span className ="span"> DashBoard</span></h1>
+                  <h3 className = "heading">DataVault<span className ="span"> DashBoard</span></h3>
               </div>
               <img src={men} className="menuImg" id='menuBtn' onClick={handleClick}/>
           </nav>

@@ -11,7 +11,7 @@ export default function Stats(){
     return (
         <div>
             <Header activeItem = 'stats'/>
-            <h1 className = 'container stats-heading'>STATS:</h1>
+            <h1 className = 'stats-heading'>STATS</h1>
             <div className='cards-container'>
                 <div className='stats-card card1'>
                     <div className='img-heading'>
@@ -28,7 +28,7 @@ export default function Stats(){
                     <p className='stats-paragraph'>29,58,598 Rs./-</p>
                 </div>
             </div>
-            <div className='container piechart-container'>
+            <div className='piechart-container'>
                 <h2>How many platforms do we use for marketing?</h2>
                 <img src={piechart}/>
             </div>

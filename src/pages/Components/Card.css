@@ -23,8 +23,9 @@
     color: #0F74D4;
 }
 
-p{
+.Card p{
     text-align: center;
+    margin: 10px;
 }
 
 .img {
@@ -44,5 +45,18 @@ p{
     100% {
       opacity: 1;
       transform: translatex(0);
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .card-heading{
+        font-size: 35px;
+        margin: 0;
+    }
+    .Card{
+        padding: 20px 20px;
+    }
+    .Card p{
+        font-size: 15px;
     }
   }
